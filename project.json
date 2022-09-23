@@ -82,6 +82,12 @@
         "testCaseId": "fcb39b55-4eaf-422b-863b-878188ad04b6",
         "testCaseType": "TestCase",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f20748bf-be96-43fc-bc23-3dc84fedc7fe",
+        "testCaseType": "TestCase",
+        "fileName": "System1\\System1_Login-TestCase.xaml"
       }
     ],
     "modernBehavior": true
