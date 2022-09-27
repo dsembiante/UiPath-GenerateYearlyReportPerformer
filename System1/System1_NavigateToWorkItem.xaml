@@ -12,7 +12,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1131.33333333333,2062</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1131.33333333333,2239.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1_NavigateTo_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -91,28 +91,29 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="System1_NavigateTo" sap:VirtualizedContainerService.HintSize="936.666666666667,1997.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="System1_NavigateTo" sap:VirtualizedContainerService.HintSize="936.666666666667,2174.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: ACME System 1 - Dashboard" sap:VirtualizedContainerService.HintSize="894.666666666667,1905.33333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="ac64bfba-a69b-4016-b38b-8f97f778ace6" Version="V2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="894.666666666667,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Navigating to Work Items page&quot;]" />
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: ACME System 1 - Dashboard" sap:VirtualizedContainerService.HintSize="894.666666666667,1948" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="ac64bfba-a69b-4016-b38b-8f97f778ace6" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="860.666666666667,1687.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="860.666666666667,1730" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="818.666666666667,83.3333333333333" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[in_strSystem1URL]" Version="V1" />
-            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Generate Yearly'" sap:VirtualizedContainerService.HintSize="818.666666666667,1470.66666666667" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ac64bfba-a69b-4016-b38b-8f97f778ace6" Timeout="30" Version="V1">
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Generate Yearly'" sap:VirtualizedContainerService.HintSize="818.666666666667,1512" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ac64bfba-a69b-4016-b38b-8f97f778ace6" Timeout="30" Version="V1">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="514.666666666667,1250.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="514.666666666667,1252" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -200,7 +201,7 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items/86923968" DesignTimeRectangle="469, 348, 998, 41" ElementType="Text" FriendlyName="'Generate Yearly'" FullSelectorArgument="&lt;webctrl isleaf='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' tag='DIV' type='' class='panel-heading' aaname='Generate Yearly Report for Vendor' check:innerText='Generate Yearly Report for Vendor' /&gt;" Guid="45db8cca-8c3a-4b11-b744-c3efe75ed6b0" ImageBase64="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" InformativeScreenshot="8d939ab480846847ddbe6f1dc8472f02.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="499, 414, 373, 20" ElementType="Text" FriendlyName="'Vendor Information'" FullSelectorArgument="&lt;webctrl tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Vendor Information' check:innerText='Vendor Information' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

@@ -87,7 +87,7 @@
         "editingStatus": "InProgress",
         "testCaseId": "f20748bf-be96-43fc-bc23-3dc84fedc7fe",
         "testCaseType": "TestCase",
-        "fileName": "System1\\System1_Login-TestCase.xaml"
+        "fileName": "Tests\\System1_Login-TestCase.xaml"
       }
     ],
     "modernBehavior": true
